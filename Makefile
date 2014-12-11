@@ -2,7 +2,7 @@
 
 .include "../../shells/zsh/Makefile.common"
 
-ZSH_VERSION=	5.0.5
+ZSH_VERSION=	5.0.7
 PKGREVISION=	1
 ZSH_MAINTAINER=	uebayasi@NetBSD.org
 

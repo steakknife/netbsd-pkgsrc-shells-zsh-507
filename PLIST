@@ -3,6 +3,7 @@ bin/zsh
 bin/${PKGNAME}
 info/zsh.info
 ${PLIST.dynamic}${PLIST.xattr}lib/zsh/${PKGVERSION}/zsh/attr.so
+${PLIST.dynamic}lib/zsh/${PKGVERSION}/zsh/attr.so
 ${PLIST.dynamic}lib/zsh/${PKGVERSION}/zsh/cap.so
 ${PLIST.dynamic}lib/zsh/${PKGVERSION}/zsh/clone.so
 ${PLIST.dynamic}lib/zsh/${PKGVERSION}/zsh/compctl.so
@@ -92,7 +93,7 @@ share/zsh/${PKGVERSION}/functions/VCS_INFO_quilt
 share/zsh/${PKGVERSION}/functions/VCS_INFO_realpath
 share/zsh/${PKGVERSION}/functions/VCS_INFO_reposub
 share/zsh/${PKGVERSION}/functions/VCS_INFO_set
-share/zsh/${PKGVERSION}/functions/_SuSEconfig
+share/zsh/${PKGVERSION}/functions/_SUSEconfig
 share/zsh/${PKGVERSION}/functions/_a2ps
 share/zsh/${PKGVERSION}/functions/_a2utils
 share/zsh/${PKGVERSION}/functions/_aap
@@ -671,7 +672,6 @@ share/zsh/${PKGVERSION}/functions/_unhash
 share/zsh/${PKGVERSION}/functions/_uniq
 share/zsh/${PKGVERSION}/functions/_unison
 share/zsh/${PKGVERSION}/functions/_units
-share/zsh/${PKGVERSION}/functions/_unsetopt
 share/zsh/${PKGVERSION}/functions/_update-alternatives
 share/zsh/${PKGVERSION}/functions/_update-rc.d
 share/zsh/${PKGVERSION}/functions/_urls
